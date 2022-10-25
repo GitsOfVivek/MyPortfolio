@@ -18,6 +18,14 @@ nav span a {
     margin: 5px;
     font-size: 20px;
 }
+#progress {
+font-size: 40px;
+color: white;
+text-align: center;
+}
+#progress:hover {
+color: yellow;
+}
 /* #v {
     color: aliceblue;
     font-size: 30px;
