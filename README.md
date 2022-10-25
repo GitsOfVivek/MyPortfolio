@@ -1,6 +1,6 @@
 # Hi, I'm ViveK! 👋
 
-This is **My Portfolio** website's source code.
+This is [**My Portfolio**](https://gitsofvivek.github.io/MyPortfolio) website's source code.
 
 
 ## Features
@@ -8,12 +8,10 @@ This is **My Portfolio** website's source code.
 - Light/dark mode
 - Responsible
 - Animation
+## Used Tech
+- HTML
+- CSS
 
-
-## 🚀 About Me
-
-- Full Stack Developer
-- Data Structure & Algorithm
 ## Authors
 
 - [@GitsOfVivek](https://www.github.com/GitsOfVivek)
@@ -21,33 +19,4 @@ This is **My Portfolio** website's source code.
 
 ## Badges
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/GitsOfVivek/MyPortfolio/blob/main/LICENSE)
-
-
-## Contributing
-
-Contributions are always welcome!
-
-See `contributing.md` for ways to get started.
-
-Please adhere to this project's `code of conduct`.
-
-
-## Deployment
-
-Just demo
-
-```bash
-  git commit -m "Deployment Added"
-```
-
-
-## 🛠 Skills
-Javascript, HTML, CSS, Java, DSA...
-
-
-## Tech Stack
-
-**Client:** React, Redux
-
-**Server:** Node, Express
 
