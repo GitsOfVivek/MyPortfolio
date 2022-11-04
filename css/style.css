@@ -1,0 +1,68 @@
+body {
+    background-color: #291b15;
+    /* margin: 0px;
+    padding: 0px; */
+    color: #ffffff;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: large;
+}
+* {
+    margin: 0px;
+    padding: 0px;
+}
+#logo {
+    background-color:rgb(10, 54, 147);
+    text-align: center;
+    padding: 10px;
+}
+#logo a:hover {
+    transition: .5s;
+    color: red;
+}
+#logo span a {
+    font-size: 2em;
+    color: rgb(255, 255, 255);
+    font-family: Fira Code, Arial, Helvetica, sans-serif, serif;
+    border-radius: 10px;
+}
+nav {
+    text-align: left;
+    background-color: rgb(6, 35, 99);
+    padding: 10px;
+}
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+nav a {
+    font-size: 1.3em;
+    color: rgb(255, 255, 255);
+    padding: 5px 15px 5px 15px;
+    border-radius: 10px;
+}
+nav a:hover {
+    background-color: rgb(109, 153, 246);
+    color: rgb(0, 6, 37);
+    transition: .5s;
+    
+}
+#progress {
+    font-size: 2rem;
+}
+#progress:hover {
+    color: yellow;
+    transition: .5s;
+}
+.main {
+    background-image: url(/img/wall.jpg);
+    color: #380163;
+    font-size: 1.2em;
+}
+p {
+    text-align: center;
+}
+#footer {
+    text-align: center;
+    background-color: rgb(8, 51, 145);
+    padding: 12px;
+}
