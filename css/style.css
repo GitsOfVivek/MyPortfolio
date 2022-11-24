@@ -1,68 +1,138 @@
-body {
-    background-color: #291b15;
-    /* margin: 0px;
-    padding: 0px; */
-    color: #ffffff;
-    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: large;
-}
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&family=Raleway:wght@500&display=swap&family=Satisfy&display=swap&family=Playfair+Display+SC:wght@900&display=swap');
 * {
-    margin: 0px;
-    padding: 0px;
+  margin: 0;
+  padding: 0;
 }
-#logo {
-    background-color:rgb(10, 54, 147);
-    text-align: center;
-    padding: 10px;
+body {
+  font-family: "Raleway", sans-serif;
 }
-#logo a:hover {
-    transition: .5s;
-    color: red;
+.logo {
+  background-color: #202020;
+  text-align: center;
 }
-#logo span a {
-    font-size: 2em;
-    color: rgb(255, 255, 255);
-    font-family: Fira Code, Arial, Helvetica, sans-serif, serif;
-    border-radius: 10px;
+.logo a{
+  font-size: 3.5rem;
+  text-shadow:
+  0px 0px 50px #ff0095,
+  0px 0px 30px #ff0095,
+  0px 0px 10px #ff0095,
+  0px 0px 5px #ff0095;
+  transition: 600ms;
+  /* font-family: 'Playfair Display SC', serif; */
+  /* font-family: 'Satisfy', cursive; */
+  font-family: 'Oleo Script Swash Caps', cursive;
 }
-nav {
-    text-align: left;
-    background-color: rgb(6, 35, 99);
-    padding: 10px;
+.logo a:hover {
+  color: #ff0095;
+  text-shadow:
+  0px 0px 50px #ffffff,
+  0px 0px 30px #ffffff,
+  0px 0px 10px #ffffff,
+  0px 0px 5px #ffffff;
+  /* font-family: 'Playfair Display SC', serif; */
+  /* font-family: 'Satisfy', cursive; */
+  font-family: 'Oleo Script Swash Caps', cursive;
+}
+.logo a:active {
+  color: #ffe760;
+  text-shadow:
+  0px 0px 50px #ff0095,
+  0px 0px 30px #ff0095,
+  0px 0px 10px #ff0095,
+  0px 0px 5px #ff0095;
+  /* font-family: 'Playfair Display SC', serif; */
+  /* font-family: 'Satisfy', cursive; */
+  font-family: 'Oleo Script Swash Caps', cursive;
 }
 a {
-    text-decoration: none;
-    color: rgb(255, 255, 255);
+  text-decoration: none;
+  color: #ffffff;
 }
-nav a {
-    font-size: 1.3em;
-    color: rgb(255, 255, 255);
-    padding: 5px 15px 5px 15px;
-    border-radius: 10px;
+.nav {
+  background-color: #ff0095;
 }
-nav a:hover {
-    background-color: rgb(109, 153, 246);
-    color: rgb(0, 6, 37);
-    transition: .5s;
-    
+.navList {
+  list-style: none;
+  display: flex;
+  justify-content: left;
+  padding: 15px 0 15px 0;
 }
-#progress {
-    font-size: 2rem;
+.navItem a {
+  font-family: 'Playfair Display SC', serif;
+  font-size: 1.5rem;
+  padding: 5px;
+  border-radius: 10px;
+  margin: 10px;
+  transition: 800ms;
 }
-#progress:hover {
-    color: yellow;
-    transition: .5s;
+.navItem a:hover {
+  background-color: #ffffff;
+  color: #ff0095;
+  font-weight: bold;
 }
-.main {
-    background-image: url(/img/wall.jpg);
-    color: #380163;
-    font-size: 1.2em;
+.heading {
+  font-family: 'Playfair Display SC', serif;
+  color: #ffffff;
+  text-align: center;
+  background-color: #ff0095;
+  padding: 10px;
+  text-shadow:
+  2px 2px 2px #615200;
 }
-p {
-    text-align: center;
+.foot {
+  color: #ffffff;
+  font-family: monospace;
+  font-size: 150%;
+  background-color: #ff0095;
+  text-align: center;
+  padding: 10px;
 }
-#footer {
-    text-align: center;
-    background-color: rgb(8, 51, 145);
-    padding: 12px;
+.heart {
+  color: yellow;
+}
+.home {
+  width: auto;
+  height: auto;
+  /* border: 5px solid yellow; */
+  display: flex;
+  justify-content: center;
+}
+.welcome {
+  padding: 20px;
+  color: #ffffff;
+  text-shadow:
+  0px 0px 50px #ff0095,
+  0px 0px 30px #ff0095,
+  0px 0px 10px #ff0095,
+  0px 0px 10px #ff0095,
+  0px 0px 5px #ff0095,
+  0px 0px 2px #ff0095;
+  font-size: 250%;
+  font-family: 'Satisfy', cursive;
+}
+.welcome-me {
+  padding: 20px;
+  color: #ffffff;
+  text-shadow:
+  0px 0px 50px #ff0000,
+  0px 0px 30px #ff0000,
+  0px 0px 10px #ff0000,
+  0px 0px 10px #ff0000,
+  0px 0px 5px #ff0000,
+  0px 0px 2px #ff0000;
+  font-size: 200%;
+  font-family: 'Satisfy', cursive;
+}
+.progress {
+  padding: 20px;
+  color: #ffffff;
+  text-shadow:
+  0px 0px 50px #ffaa00,
+  0px 0px 30px #ffaa00,
+  0px 0px 10px #ffaa00,
+  0px 0px 10px #ffaa00,
+  0px 0px 5px #ffaa00,
+  0px 0px 2px #ffaa00;
+  font-size: 250%;
+  font-family: 'Satisfy', cursive;
 }
