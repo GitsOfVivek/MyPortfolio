@@ -48,16 +48,18 @@ a {
   text-decoration: none;
   color: #ffffff;
 }
-.nav {
-  background-color: #ff0095;
+.navbar {
+  background: linear-gradient(50deg, #ff0095, #ff3232, #ff8c00);
 }
 .navList {
   list-style: none;
-  display: flex;
-  justify-content: left;
   padding: 15px 0 15px 0;
 }
+.navItem {
+  display: inline-block;
+}
 .navItem a {
+  
   font-family: 'Playfair Display SC', serif;
   font-size: 1.5rem;
   padding: 5px;
@@ -74,7 +76,7 @@ a {
   font-family: 'Playfair Display SC', serif;
   color: #ffffff;
   text-align: center;
-  background-color: #ff0095;
+  background: linear-gradient(50deg, #ff0095, #ff3232, #ff8c00);
   padding: 10px;
   text-shadow:
   2px 2px 2px #615200;
@@ -83,7 +85,7 @@ a {
   color: #ffffff;
   font-family: monospace;
   font-size: 150%;
-  background-color: #ff0095;
+  background: linear-gradient(50deg, #ff0095, #ff3232, #ff8c00);
   text-align: center;
   padding: 10px;
 }
@@ -135,4 +137,98 @@ a {
   0px 0px 2px #ffaa00;
   font-size: 250%;
   font-family: 'Satisfy', cursive;
+}
+.form {
+  text-align: center;
+}
+label {
+  display: block;
+  font-family: 'Satisfy', cursive;
+  text-shadow: 
+  0 0 10px #ff0095,
+  0 0 9px  #ff0095,
+  0 0 8px  #ff0095,
+  0 0 7px  #ff0095,
+  0 0 5px  #ff0095,
+  0 0 2px  #ff0095,
+  0 0 2px  #ff0095,
+  0 0 2px  #ff0095,
+  0 0 2px  #ff0095,
+  0 0 2px  #ff0095;
+  color: #fff;
+  font-size: 150%;
+}
+
+input, textarea, input[type="button"] {
+  border: none;
+  margin: 10px;
+  padding: 5px;
+  width: 250px;
+  font-family: cursive;
+  background: linear-gradient(120deg, #ffa2d8, #ffc278);
+  box-shadow:
+  0px 0px 10px #ffaa00,
+  0px 0px 10px #ffaa00,
+  0px 0px 5px #ffaa00,
+  0px 0px 2px #ffaa00;
+  border-radius: 7px;
+}
+input:hover, input:active, input:focus, textarea:hover, textarea:active, textarea:focus, input:checked {
+  border: none;
+  outline: none;
+  background: linear-gradient(120deg, #ffa2d8, #ffc278);
+  color: black;
+  margin: 10px;
+  padding: 5px;
+  box-shadow:
+  0px 0px 10px #ff0095,
+  0px 0px 10px #ff0095,
+  0px 0px 5px #ff0095,
+  0px 0px 2px #ff0095;
+}
+input[type="button"] {
+  width: 100px;
+  height: auto;
+  font-size: 110%;
+  cursor: pointer;
+}
+input[type="button"]:hover {
+  text-shadow: 
+  0 0 2px #ff0095,
+  0 0 2px #ff0095,
+  0 0 2px #ff0095,
+  0 0 2px #ff0095,
+  0 0 2px #ff0095,
+  0 0 2px #ff0095,
+  0 0 2px #ff0095,
+  0 0 2px #ff0095,
+  0 0 2px #ff0095,
+  0 0 2px #ff0095,
+  0 0 2px #ff0095,
+  0 0 2px #ff0095,
+  0 0 2px #ff0095,
+  0 0 2px #ff0095,
+  0 0 2px #ff0095,
+  0 0 2px #ff0095,
+  0 0 2px #ff0095,
+  0 0 2px #ff0095,
+  0 0 2px #ff0095,
+  0 0 2px #ff0095;
+  color: #fff;
+}
+article {
+  padding: 10px;
+}
+
+/* table */
+th {
+  /* text-align: center; */
+  padding: 20px;
+}
+td {
+  /* text-align: center; */
+  padding: 10px;
+}
+tr {
+  border: 2px solid red;
 }
