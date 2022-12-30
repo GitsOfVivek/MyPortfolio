@@ -6,10 +6,7 @@ This is [**My Portfolio**](https://gitsofvivek.github.io/MyPortfolio) website's 
 
 
 ## Features
-
-- Light/dark mode
 - Responsible
-- Animation
 ## Used Tech
 - HTML
 - CSS
